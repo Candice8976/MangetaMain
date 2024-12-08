@@ -28,7 +28,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install flake8 pytest
     - name: Check installed packages
-      run: poetry run pip list
+      run: requirement.txt
     - name: Lint with flake8
       run: |
         # stop the build if there are Python syntax errors or undefined names
