@@ -9,8 +9,7 @@ import os
 
 from wordcloud import WordCloud
 
-
-from analyse.utils import (
+from .analyse.utils import (
     count_contributors_by_recipe_range_with_bins,
     get_top_tags,
     get_top_ingredients2,
@@ -18,7 +17,8 @@ from analyse.utils import (
     average_and_total_comments_per_contributor,
 )
 
-#df_ingr_map = pd.read_pickle("../data_files/ingr_map.pkl")
+df_ingr_map = pd.read_pickle("../data_files/ingr_map.pkl")
+
 
 
 # Source fonction my_metric : https://py.cafe/maartenbreddels/streamlit-custom-metrics
