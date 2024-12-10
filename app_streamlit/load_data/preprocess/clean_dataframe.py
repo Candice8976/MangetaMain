@@ -8,7 +8,7 @@ from ..preprocess.cleaning_data import remove_outliers_iqr
 from ..preprocess.cleaning_data import date_separated
 from ..preprocess.cleaning_data import add_season
 from ...analyse.utils import nutri_score
-import logging 
+import logging  
 
 logging.basicConfig(
     filename='logging/debug.log',
