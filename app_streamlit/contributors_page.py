@@ -15,7 +15,7 @@ from .analyse.utils import (
     get_top_ingredients2,
     metrics_main_contributor,
     average_and_total_comments_per_contributor,
-)
+) 
 
 df_ingr_map = pd.read_pickle("../data_files/ingr_map.pkl")
 
